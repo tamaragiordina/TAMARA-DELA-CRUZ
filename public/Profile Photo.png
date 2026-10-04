@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="circleGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#282a2e" />
+      <stop offset="50%" stop-color="#181a1d" />
+      <stop offset="100%" stop-color="#08090a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Solid pitch black background -->
+  <rect width="400" height="400" fill="#000000" />
+
+  <!-- Subtle organic background wave contours -->
+  <g fill="none" stroke="#121316" stroke-width="1.2" opacity="0.9">
+    <path d="M-20 40 Q 100 20, 200 60 T 420 30" />
+    <path d="M-20 70 Q 120 40, 220 80 T 420 50" />
+    <path d="M-20 100 Q 80 80, 180 110 T 420 80" />
+    <path d="M-20 330 Q 100 360, 220 320 T 420 350" />
+    <path d="M-20 360 Q 120 380, 240 340 T 420 370" />
+    <path d="M-20 385 Q 90 400, 200 370 T 420 390" />
+    <path d="M30 -20 Q 50 120, 20 220 T 40 420" />
+    <path d="M370 -20 Q 350 120, 380 220 T 360 420" />
+  </g>
+
+  <!-- Large central dark circle disc with smooth gradient -->
+  <circle cx="200" cy="200" r="155" fill="url(#circleGrad)" />
+
+  <!-- Centered bespoke t. emblem in soft lilac-white -->
+  <g fill="#F3EEF5" transform="translate(200, 200) scale(1.15) translate(-200, -200)">
+    <!-- letter t -->
+    <path d="M 183 178 
+             h -12 
+             v -7 
+             c 7 0 13 -3 16 -9 
+             c 1.6 -3 3 -8 3.6 -13 
+             h 7.6 
+             v 22 
+             h 16 
+             v 7 
+             h -16 
+             v 36 
+             c 0 6.4 1.6 10.4 4.4 12.4 
+             c 2.4 1.6 6 2.4 11 2.4 
+             c 2.4 0 5 -0.4 7.6 -1 
+             v 7.2 
+             c -4 1.6 -8.4 2.4 -13 2.4 
+             c -8 0 -14 -2.4 -17.6 -7 
+             c -3.6 -4.6 -5.2 -12 -5.2 -22 
+             v -30.4 
+             z" />
+    <!-- dot -->
+    <circle cx="222" cy="233" r="8.4" />
+  </g>
+</svg>
